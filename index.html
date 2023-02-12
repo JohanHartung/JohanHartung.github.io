@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Whooooooo</h1>
+    <a href="kungel://com.companyname.finanzs_sis:75235">Launch Application</a>
+<body style="background-color:#0f0f0f;">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+        button{
+            position: relative;
+            border: none    ;
+            background-color: #0f0f0f;
+            transition: .4s ease-in;
+            z-index: 1;
+            padding: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        button::before,
+        button::after{
+            position: absolute;
+            content: "";
+            z-index: -1;
+        }
+        button.btn-1:hover{
+            background: #ff96ad;
+            box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 200px #ff96ad;
+        }
+        h1{
+            font-family: 'Reem Kufi Ink', sans-serif;
+            color: #03bafc;
+            cursor: pointer;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    
+<ul>
+    <li><a>Home</a></li>
+</ul>
+<h1 class="title">johanhartung.io</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<button class="btn-1">
+    Hi, there...
+</button>
+<input type="reset">
 </body>
 </html>
